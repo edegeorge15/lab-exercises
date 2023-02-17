@@ -1,0 +1,94 @@
+
+/*global selector styles whole page, overides local selectors; adds text-font styling */
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* local styling; the class styles all images */
+.all-images{
+    padding: 15px;
+    display: block;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NEW ELEMENT */
+/* global styling; This makes the image reverse when you hover over it*/
+img:hover{
+    transform: scaleX(-1)
+}
+
+/* NEW ELEMENT */
+/* global styling; makes the images into cicles with a set radius */
+img{
+    border-radius: 50%; 
+}
+
+/*global styling; controls the style of the entire body*/
+body{
+    background-color:rgb(250, 187, 205); 
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* local styling; the class styles this particular h1 element*/
+.opening-heading{
+    border: 20px solid transparent;
+    padding: 10px;
+    /* NEW ELEMENT */
+    border-image: url(Summary-Spongebob-Flowers-In-The-Sky-stargate-rasa.info.jpg) 60 repeat;
+    text-decoration-line: underline;
+    background-color: white;
+    position: static;
+    text-align: center;
+    border-style: solid;
+    border-color: purple;
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+}
+
+/* local styling; the class styles the body text */
+.body-text{
+    
+    background-color: white;
+     padding: 20px;
+     margin: 25px;
+     border: 5px solid;
+     border-color: purple;
+     height: 350px;
+     width: 600px;
+     display: inline-block;
+     position: relative;
+}
+
+/* NEW ELEMENT */
+/* local styling; uses float to move image to right side */
+.text-image{
+    float: right
+}
+
+/* local styling using an ID to style the hr element */
+#unique-hr{
+    border: 5px dotted purple;
+}
+
+/* NEW ELEMENT*/
+/*global styling of the a element*/
+a{ 
+    text-decoration: none;
+    color: purple(112, 35, 158); 
+}
+
+a:hover{
+    color: rgb(231, 109, 150);
+}
+
+a:active{
+    color: rgb(43, 226, 73); 
+}
+
+a:visited{
+    color: orange(12, 9, 63) ;
+}
